@@ -1,0 +1,34 @@
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class MyStepdefs {
+    private WebDriver driver;
+
+    @When("I open main page")
+    public void iOpenMainPage() {
+        System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver");
+        driver = new FirefoxDriver();
+        driver.manage().window().maximize();
+        driver.get("http://qainterview.pythonanywhere.com/");
+    }
+
+    @And("I fill in {string} with {string}")
+    public void iFillInWith(String arg0, String arg1) {
+        System.out.println(arg1);
+        WebElement element = driver.findElement(By.id("number"));
+        element.sendKeys(arg1);
+
+    }
+
+    @Then("I click in to calculate")
+    public void iClickInToCalculate() {
+        WebElement element1 = driver.findElement(By.id("getFactorial"));
+        element1.click();
+    }
+}

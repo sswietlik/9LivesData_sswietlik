@@ -1,3 +1,4 @@
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -32,3 +33,25 @@ public class scenarioNo_004 {
         driver.close();
     }
 }
+
+//
+//
+//    @When("Gdy użytkownik będąc na głównej stronie")
+//    public void gdyUżytkownikBędącNaGłównejStronie() {
+//        System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver");
+//        driver = new FirefoxDriver();
+//        driver.manage().window().maximize();
+//        driver.get("http://qainterview.pythonanywhere.com/");
+//    }
+//
+//    @And("Uzupełnię okno liczbą całkowitą używając <liczba>")
+//    public void uzupełnięOknoLiczbąCałkowitąUżywającLiczba() {
+//        driver.findElement(By.name("number"));
+//
+//    }
+//
+//    @And("Wcisnę przycisk kalkulator")
+//    public void wcisnęPrzyciskKalkulator() {
+//        WebElement element = driver.findElement(By.id("getFactorial"));
+//        element.click();
+//    }
