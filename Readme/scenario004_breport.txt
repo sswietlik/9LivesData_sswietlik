@@ -1,0 +1,3 @@
+Scenario: click and open link to /privacy/ information
+Bug : links move user in to page with /terms and conditions/ informations NOT PRIVACY
+Bug : the page does not contain any information

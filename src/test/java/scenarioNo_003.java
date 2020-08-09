@@ -3,6 +3,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +14,7 @@ public class scenarioNo_003 {
     public void userIsOnMainPage() {
         System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver");
         driver = new FirefoxDriver();
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(960,720));
         driver.get("http://qainterview.pythonanywhere.com/");
 
     }

@@ -1,0 +1,3 @@
+scenario required open link with COPYRIGHT and move on correct page
+Generally there is no technical bug because link work fine ,
+but from design site on Main page should be easy to find link with Title "COPYRIGHTs" not "Qxf2 Services"

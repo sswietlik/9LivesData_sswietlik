@@ -1,0 +1,6 @@
+scenario based on General requirements
+"Page level title: “Factorial” (you can see it as the name of an opened tab in a browser)."
+
+Expected title is FACTORIAL
+Actual title is   FACTORIALL
+

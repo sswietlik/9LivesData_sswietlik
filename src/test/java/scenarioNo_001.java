@@ -1,6 +1,6 @@
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -8,49 +8,39 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.util.concurrent.TimeUnit;
-
-public class scenarioNo_002 {
+public class scenarioNo_001 {
     private WebDriver driver;
 
-    @When("I open main page.")
-    public void iOpenMainPage() {
+    @Given("Opened main page")
+    public void openedMainPage() {
         System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver");
         driver = new FirefoxDriver();
-        driver.manage().window().setSize(new Dimension(640,480));
+        driver.manage().window().setSize(new Dimension(1280,960));
         driver.get("http://qainterview.pythonanywhere.com/");
-        driver.manage().deleteAllCookies();
     }
 
-    @And("I fill in with {string}")
-    public void iFillInWith(String arg0) {
+    @And("Localize input field and insert incorrect {string}")
+    public void localizeInputFieldAndInsertIncorrectDigits(String arg0) {
         WebElement element = driver.findElement(By.id("number"));
         element.sendKeys(arg0);
     }
 
-    @And("Push calculate button")
-    public void pushCalculateButton() {
-
+    @And("Push calculate button to verify result")
+    public void pushCalculateButtonToVerifyResult() {
         WebElement calcButton = driver.findElement(By.id("getFactorial"));
         calcButton.click();
-                driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-
-
     }
 
-    @And("Check feedback information from page")
-    public void checkFeedbackInformationFromPage() {
-
-
-
+    @Then("Check error message")
+    public void checkErrorMessage() {
         WebElement message = driver.findElement(By.cssSelector("#resultDiv"));
 //        String msg = message.getText();
-        driver.findElement(By.cssSelector("#resultDiv")).getText().contains("The factorial");
+        driver.findElement(By.id("resultDiv")).getText().contains("Please enter an integer");
 ////
-        if (message.getText().contains("The factorial of ")){
+        if (message.getText().contains("Please enter an integer")){
             Assertions.assertEquals(1,1);
         }
-         else {
+        else {
             Assertions.assertEquals(1,0);
         }
 //         driver.quit();
@@ -65,7 +55,4 @@ public class scenarioNo_002 {
 
     }
 
-//    @Then("close page")
-//    public void closePage() {
-//    }
 }

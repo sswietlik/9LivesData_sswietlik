@@ -1,0 +1,23 @@
+
+
+to avoid constantly changes in IntelliJ java version I was added in POM.XML lines where "14" means chosen JAVA version
+    <properties>
+        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>14</maven.compiler.target>
+    </properties>
+
+to avoid issues between cucumber for java and junit please keep in mind to hold the same version for both dependecys
+
+       <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>6.0.0</version>
+            <scope>test</scope>
+        </dependency>

@@ -25,9 +25,7 @@ public class scenarioNo_006 {
     @Then("Comparison expected tab vs. actual tab.")
     public void comparisonExpectedTabVsActualTab() {
         String expectedTitle = "Factorial";
-        System.out.println(expectedTitle);
         String actualTitle = driver.getTitle();
-        System.out.println(expectedTitle);
         Assertions.assertEquals(expectedTitle,actualTitle);
     }
 }

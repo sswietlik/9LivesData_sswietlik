@@ -7,9 +7,12 @@ Feature: Checking correct numbers
     Then Check feedback information from page
 
 
+
+
     Examples:
       |digit|
       |0    |
-#      |10    |
-#      |99    |
-#      |170    |
+      |3    |
+      |2    |
+      |99   |
+      |170  |

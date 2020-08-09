@@ -1,0 +1,6 @@
+Assertion base on .getText function
+
+NOT ALWAYS read correct message base on CSS or ID  probably need to check different browser webdriver
+    Try use waits , clear cookies,
+
+Generally page works fine but need to check settings

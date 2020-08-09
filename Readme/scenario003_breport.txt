@@ -1,0 +1,3 @@
+Scenario: click and open link to /TERMS AND CONDITION/ information
+Bug : links move user in to page with /PRIVACY/ informations NOT TERMS AND CONDITION
+Bug : the page does not contain any information

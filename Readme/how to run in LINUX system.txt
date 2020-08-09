@@ -1,0 +1,11 @@
+All scenarios are prepared in Linux ( UBUNTU) OS so it should be ready to run under UX
+If You decide to use it under Windows please remember to download correct WebDrivers for Windows  OS and change  below parameters
+       System.setProperty("webdriver.gecko.driver", "src/main/resources/drivers/geckodriver");
+       driver = new FirefoxDriver();
+Webdrivers in this projects (path /src/main/resources/drivers/)   geckodriver_>firefox and chromedriver_>Chrome
+Webdriver tested only on geckodriver
+Software used to prepare test Intellij
+  How to Run tests: open project and run   scenarioNo_xxx*.feature
+
+
+
