@@ -29,7 +29,7 @@ public class scenarioNo_005 {
         String expectedURL = "https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview";
         System.out.println("expected URL is : "+ expectedURL);
         System.out.println("actual URL is   : "+ driver.getCurrentUrl());
-        Assertions.assertEquals(expectedURL, driver.getCurrentUrl(2));
+        Assertions.assertEquals(expectedURL, driver.getCurrentUrl());
         driver.close();
 
     }
