@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d28cc90b-244f-49d6-9a30-4592f954a59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme/AdditionalInformation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/how to run in LINUX system.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario001_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario002_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario003_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario004_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario005_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Readme/scenario006_breport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scenarioNo_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scenarioNo_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarioNo_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scenarioNo_003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarioNo_003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scenarioNo_006.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarioNo_006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/scenarioNo_001_InputFields.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/scenarioNo_001_InputFields.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/scenarioNo_002.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/scenarioNo_002.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/scenarioNo_001_InputFields.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarioNo_001_InputFields.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/scenarioNo_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarioNo_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme/scenario001_breport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme/scenario001_breport.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme/scenario002_breport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme/scenario002_breport.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597010993245</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="koniec">
+      <created>1597011143899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597011143899</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,7 +225,8 @@
     <MESSAGE value="Finished scenario 2" />
     <MESSAGE value="Finished scenario 6" />
     <MESSAGE value="Finished on monday 10.08.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished on monday 10.08.2020" />
+    <MESSAGE value="koniec" />
+    <option name="LAST_COMMIT_MESSAGE" value="koniec" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2499" y="336" width="791" height="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597006510875">
@@ -247,26 +238,26 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2616" y="381" width="518" height="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596962233543" />
-    <state x="2419" y="88" width="912" height="911" key="CommitChangelistDialog2" timestamp="1597010992901">
+    <state x="2419" y="88" width="912" height="911" key="CommitChangelistDialog2" timestamp="1597011143852">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="88" width="912" height="911" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597010992901" />
-    <state width="1874" height="559" key="GridCell.Tab.0.bottom" timestamp="1597010704860">
+    <state x="2419" y="88" width="912" height="911" key="CommitChangelistDialog2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597011143852" />
+    <state width="1874" height="559" key="GridCell.Tab.0.bottom" timestamp="1597031615667">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="559" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597010704860" />
-    <state width="1874" height="559" key="GridCell.Tab.0.center" timestamp="1597010704860">
+    <state width="1874" height="559" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597031615667" />
+    <state width="1874" height="559" key="GridCell.Tab.0.center" timestamp="1597031615667">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="559" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597010704860" />
-    <state width="1874" height="559" key="GridCell.Tab.0.left" timestamp="1597010704860">
+    <state width="1874" height="559" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597031615667" />
+    <state width="1874" height="559" key="GridCell.Tab.0.left" timestamp="1597031615666">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="559" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597010704860" />
-    <state width="1874" height="559" key="GridCell.Tab.0.right" timestamp="1597010704860">
+    <state width="1874" height="559" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597031615666" />
+    <state width="1874" height="559" key="GridCell.Tab.0.right" timestamp="1597031615667">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="559" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597010704860" />
+    <state width="1874" height="559" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1597031615667" />
     <state width="1874" height="351" key="GridCell.Tab.1.bottom" timestamp="1597002240313">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
